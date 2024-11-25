@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(96, 82, 58, 0.9);
+  background-image: url("../image/ocean-3605547_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h1 {
+  font-weight: 400;
+}
+h1,
+a {
+  color: aliceblue;
+}
+
+nav {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 30px;
+}
+
+section nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+section nav ul li a {
+  text-decoration: none;
+}
